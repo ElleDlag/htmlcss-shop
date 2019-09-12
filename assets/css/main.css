@@ -7,8 +7,33 @@ body{
   box-sizing: border-box;
 }
 .bckImg{
-  width:150px;
-  height:150px;
   display:inline-block;
+  position: relative;
+}
+.label, .heart{
+  position: absolute;
+}
+.label{
+  width:70px;
+  height:30px;
+  background:green;
+  top:0;
+  right:0;
+  text-align: center
+}
+.bckImg:nth-of-type(even) .label{
   background: red;
+}
+.label span{
+  line-height: 30px;
+}
+
+.heart{
+  width:70px;
+  height:30px;
+  left:110px;
+  bottom:30px;
+  text-align: center;
+  color:red;
+  font-size:50px;
 }
