@@ -36,4 +36,8 @@ body{
   text-align: center;
   color:red;
   font-size:50px;
+  visibility: hidden;
+}
+.bckImg:hover .heart{
+  visibility: visible;
 }
