@@ -1,0 +1,14 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:Arial, sans-serif;
+  box-sizing: border-box;
+}
+.bckImg{
+  width:150px;
+  height:150px;
+  display:inline-block;
+  background: red;
+}
